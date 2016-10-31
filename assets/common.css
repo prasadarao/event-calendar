@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  font-family: Arial;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.fleft { float: left; }
+
+.wrapper {
+  width: 960px;
+  margin: 50px auto;
+}
+
+#calander {
+  width: 600px;
+  height: 720px;
+  margin: 0 auto;
+  background: #EEEEEE;
+  position: relative;
+  overflow: hidden;
+}
+
+.eventItem {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-left: 4px solid #4B6EA8;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+#slots {
+  height: 720px;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+
+
+#slots .slot {
+  height: 30px;
+  font-weight: bold;
+  text-align: right;
+}
+
+#slots .slot span {
+  font-size: 12px;
+  color: #999999;
+  padding: 2px 0;
+}
